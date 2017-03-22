@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:orientation="horizontal" >
+    
+
+    <LinearLayout
+        android:id="@+id/tab_shixun"
+        android:layout_width="0dp"
+        android:gravity="center"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:layout_weight="1">
+        
+        <ImageButton
+            android:id="@+id/img_shixun"
+            android:layout_width="42dp"
+            android:layout_height="42dp"
+            android:background="#ffffff"
+            android:clickable="false"
+           
+            android:src="@drawable/information1" />
+
+        <TextView 
+             android:id="@+id/tv_shixun"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#0099ff"
+            android:text="时讯"/>
+    </LinearLayout>
+     <LinearLayout
+          android:id="@+id/tab_shetuan"
+        android:layout_width="0dp"
+        android:gravity="center"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:layout_weight="1">
+        <ImageButton
+             android:id="@+id/img_shetuan"
+            android:layout_width="42dp"
+            android:layout_height="42dp"
+            android:background="#ffffff"
+            android:clickable="false"
+          
+            android:src="@drawable/club"
+        />
+        <TextView 
+             android:id="@+id/tv_shetuan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#808080"
+            android:text="社团"/>
+    </LinearLayout>
+     <LinearLayout
+          android:id="@+id/tab_xuexi"
+        android:layout_width="0dp"
+        android:gravity="center"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:layout_weight="1">
+        <ImageButton
+             android:id="@+id/img_xuexi"
+             android:layout_width="42dp"
+            android:layout_height="42dp"
+            android:background="#ffffff"
+             android:clickable="false"
+         
+            android:src="@drawable/study"
+        />
+        <TextView 
+             android:id="@+id/tv_xuexi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#808080"
+            android:text="学习"/>
+    </LinearLayout>
+     <LinearLayout
+          android:id="@+id/tab_tonggao"
+        android:layout_width="0dp"
+        android:gravity="center"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:layout_weight="1">
+        <ImageButton
+             android:id="@+id/img_tonggao"
+             android:layout_width="42dp"
+            android:layout_height="42dp"
+            android:background="#ffffff"
+             android:clickable="false"
+            android:src="@drawable/show"
+        />
+        <TextView 
+             android:id="@+id/tv_tonggao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#808080"
+            android:text="通告"/>
+    </LinearLayout>
+
+</LinearLayout>

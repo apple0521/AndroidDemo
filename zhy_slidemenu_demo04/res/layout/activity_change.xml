@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <RelativeLayout
+        android:id="@+id/linearperson"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="#0099ff">
+
+        <ImageView
+            android:id="@+id/ivchangeback"
+            android:layout_width="27dp"
+            android:layout_height="27dp"
+            android:layout_centerVertical="true"
+            android:src="@drawable/back" />
+
+        <TextView
+            android:id="@+id/tvperson"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:text="修改信息" />
+
+        <TextView
+            android:id="@+id/tvfinish"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/tvperson"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:text="完成" />
+        
+    </RelativeLayout>
+   
+    <RelativeLayout
+        android:id="@+id/relativephoto"
+        android:layout_width="match_parent"
+        android:layout_height="140dp">
+
+    <ImageView
+        android:id="@+id/ivbackground"
+        android:layout_width="wrap_content"
+        android:layout_height="140dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/login2" />
+
+    <com.jxnu.cic.view.CircleImageView
+       android:id="@+id/photo"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:src="@drawable/touxiang" />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/relativename"
+        android:layout_width="match_parent"
+        android:layout_height="45dp" >
+
+        <TextView
+            android:id="@+id/personalname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:layout_centerVertical="true"
+            android:text="昵称" />
+        <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginBottom="0dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/gray" />
+
+        <EditText
+            android:id="@+id/etname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:ems="10"
+          
+            android:textSize="20sp" >    
+        </EditText>
+        
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/linearsex"
+        android:layout_width="match_parent"
+        android:layout_height="45dp" >
+        <TextView
+            android:id="@+id/personalname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:layout_centerVertical="true"
+            android:text="性别" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginBottom="0dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/gray" />
+
+    <EditText
+        android:id="@+id/etsex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        
+        android:textSize="20sp" >
+    </EditText>
+        
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/linearborntime"
+        android:layout_width="match_parent"
+        android:layout_height="45dp" >
+        <TextView
+            android:id="@+id/personalname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:layout_centerVertical="true"
+            android:text="出生日期" />
+
+        <TextView
+            android:id="@+id/tvtime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/personalname"
+            android:layout_alignBottom="@+id/personalname"
+            android:layout_centerHorizontal="true"
+            android:textSize="20sp"
+            />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginBottom="0dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/gray" />
+        
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/linearschool"
+        android:layout_width="match_parent"
+        android:layout_height="45dp" >
+    <TextView
+            android:id="@+id/personalname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:layout_centerVertical="true"
+            android:text="就读学校" />
+
+        <TextView
+            android:id="@+id/tvschool"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/personalname"
+            android:layout_alignBottom="@+id/personalname"
+            android:layout_centerHorizontal="true"
+            android:textSize="20sp"
+            android:text="江西师范大学" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginBottom="0dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/gray" />
+    </RelativeLayout>
+     <RelativeLayout
+        android:id="@+id/relativexueyuan"
+        android:layout_width="match_parent"
+        android:layout_height="45dp" >
+
+        <TextView
+            android:id="@+id/personalname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:layout_centerVertical="true"
+            android:text="学院" />
+
+        <TextView
+            android:id="@+id/tvxueyuan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/personalname"
+            android:layout_alignBottom="@+id/personalname"
+            android:layout_centerHorizontal="true"
+            android:textSize="20sp"
+            android:text="软件学院" />
+        <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginBottom="0dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/gray" />
+        
+    </RelativeLayout>
+     <RelativeLayout
+        android:id="@+id/relativetime"
+        android:layout_width="match_parent"
+        android:layout_height="45dp" >
+
+        <TextView
+            android:id="@+id/personalname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:layout_centerVertical="true"
+            android:text="入学年份" />
+
+        <TextView
+            android:id="@+id/tvyear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/personalname"
+            android:layout_alignBottom="@+id/personalname"
+            android:layout_centerHorizontal="true"
+            android:textSize="20sp"
+            android:text="2014年" />
+        <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginBottom="0dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/gray" />
+        
+    </RelativeLayout>
+     <RelativeLayout
+        android:id="@+id/relativeshow"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+        <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginBottom="0dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/gray" />
+
+        <TextView
+            android:id="@+id/tvshow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/imageView3"
+            android:layout_marginLeft="70dp"
+           
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/personalname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/tvname"
+            android:layout_alignBottom="@+id/tvname"
+            android:layout_alignParentLeft="true"
+            android:text="个人说明:"
+            android:textSize="15sp" />
+        
+    </RelativeLayout>
+
+
+</LinearLayout>

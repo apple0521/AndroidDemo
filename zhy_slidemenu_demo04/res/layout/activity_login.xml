@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_demo" >
+
+   <EditText
+        android:id="@+id/et_login_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:ems="10"
+        android:drawableLeft="@drawable/password1"
+         android:background="#FFFFFF"
+          android:inputType="textPassword"
+        android:hint="输入密码"  />
+        
+ 
+
+
+    <EditText
+        android:id="@+id/et_login_user"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/et_login_password"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="31dp"
+        android:drawableLeft="@drawable/phone"
+        android:ems="10"
+        android:background="#FFFFFF"
+        android:hint="手机号/邮箱" />
+
+    <TextView
+        android:id="@+id/tv_login_register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tv_login_forget"
+        android:layout_alignBottom="@+id/tv_login_forget"
+        android:layout_alignRight="@+id/btn_login"
+        android:textColor="#1E90FF"
+        android:text="马上注册" />
+
+    <TextView
+        android:id="@+id/tv_login_forget"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btn_login"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="14dp"
+        android:textColor="#1E90FF"
+        android:text="忘记密码" />
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="175dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/et_login_password"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/shape"
+        android:text="登     录"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_above="@+id/et_login_user"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/login3" />
+
+</RelativeLayout>

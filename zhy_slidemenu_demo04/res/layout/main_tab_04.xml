@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#fcfcfc"
+    android:orientation="vertical" >
+
+   <RelativeLayout
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content" >
+     
+       <com.jxnu.cic.fragment.MyImgScroll  
+        android:id="@+id/show_viewpager"  
+        android:layout_width="fill_parent"  
+        android:layout_height="120dp" />
+
+      <LinearLayout
+          android:id="@+id/show_view"
+          android:layout_width="100dp"
+          android:layout_height="10dp"
+          android:layout_marginTop="110dip"
+          android:layout_marginLeft="250dp"
+          android:orientation="horizontal" >
+      </LinearLayout>
+  </RelativeLayout>
+<com.jxnu.cic.view.RefreshableView  
+        android:id="@+id/refreshable_show_view"  
+        android:layout_width="fill_parent"  
+        android:layout_height="fill_parent" >  
+		<ListView 
+       android:id="@+id/show_listview"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+   
+       ></ListView>
+</com.jxnu.cic.view.RefreshableView >
+
+</LinearLayout>

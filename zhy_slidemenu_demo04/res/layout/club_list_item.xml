@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    
+    android:orientation="vertical">
+             <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="170dp" >
+    
+        <ImageView 
+       
+           android:layout_width="120dp"
+           android:layout_height="170dp"
+           android:id="@+id/club_list_img"
+           android:scaleType="fitXY"
+           android:src="@drawable/club_list1"
+           />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="170dp">
+
+        <TextView
+            android:id="@+id/club_list_title"
+            android:layout_width="match_parent"
+            android:layout_height="66dp"
+            android:layout_marginLeft="140dp"
+            android:gravity="center"
+            android:text="和风日语俱乐部第七届 日语歌词大赛"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/club_list_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/club_list_title"
+            android:layout_marginLeft="140dp"
+            android:layout_marginTop="20dp"
+            android:text="时间" />
+        <TextView
+            android:id="@+id/club_list_time_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/club_list_title"
+            android:layout_marginLeft="190dp"
+            android:layout_marginTop="20dp"
+            android:text="2016-03-30"/>
+        <TextView
+            android:id="@+id/club_list_cluber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/club_list_time"
+            android:layout_marginLeft="140dp"
+            android:layout_marginTop="10dp"
+            android:text="主办方" />
+         <TextView
+            android:id="@+id/club_list_club_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/club_list_time"
+            android:layout_marginLeft="190dp"
+            android:layout_marginTop="10dp"
+            android:text="和风日语俱乐部"/>
+        <TextView
+            android:id="@+id/club_list_adress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/club_list_cluber"
+            android:layout_marginLeft="140dp"
+            android:layout_marginTop="10dp"
+            android:text="地点" />
+
+        <TextView
+            android:id="@+id/club_list_adress_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/club_list_adress"
+            android:layout_alignLeft="@+id/club_list_club_tv"
+            android:text="二、三、四食堂门口" />
+   </RelativeLayout>
+ </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+
+           <LinearLayout
+               android:id="@+id/club_like1"
+        android:layout_width="105dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+           
+        <ImageView 
+            android:id="@+id/club_like"
+           android:layout_width="40dp"
+           android:layout_height="40dp"
+           android:layout_marginLeft="15dp"
+           android:layout_marginTop="10dp"
+           android:gravity="center"
+           android:scaleType="fitXY"
+           android:background="#ffffff"
+           android:src="@drawable/like"
+           />
+        <TextView
+            android:id="@+id/club_tv_like"
+            android:layout_width="40dp" 
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:layout_marginTop="15dp"
+            android:textColor="#000000"
+            android:text="0"/>
+        </LinearLayout>
+        <TextView 
+    android:layout_width="1dp"
+    android:layout_height="55dp"
+    android:background="#bfbfbf"/>
+         <LinearLayout
+             android:id="@+id/club_comment"
+        android:layout_width="105dp"
+        android:layout_height="wrap_content"
+       
+        android:orientation="horizontal">
+        <ImageView     
+           android:layout_width="40dp"
+           android:layout_height="40dp"
+           android:layout_marginLeft="15dp"
+           android:layout_marginTop="10dp"
+           android:gravity="center"
+           android:scaleType="fitXY"
+           android:src="@drawable/comment"
+           />
+        <TextView
+            android:layout_width="40dp" 
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:textColor="#000000"
+            android:text="评论"/>
+        </LinearLayout>
+        <TextView 
+    android:layout_width="1dp"
+    android:layout_height="55dp"
+    android:background="#bfbfbf"/>
+         <LinearLayout
+       android:layout_width="105dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+         <ImageView     
+           android:layout_width="40dp"
+           android:layout_height="40dp"
+           android:layout_marginLeft="15dp"
+           android:layout_marginTop="10dp"
+           
+           android:gravity="center"
+           android:scaleType="fitXY"
+           android:src="@drawable/share1"
+           />
+        <TextView
+            android:layout_width="40dp" 
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:textColor="#000000"
+            android:text="分享"/>
+        </LinearLayout>
+        
+        
+        
+</LinearLayout>
+
+</LinearLayout>

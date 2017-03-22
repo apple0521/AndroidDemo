@@ -1,0 +1,9 @@
+eclipse.preferences.version=1
+encoding//src/com/jxnu/cic/ChangeActivity.java=UTF-8
+encoding//src/com/jxnu/cic/dbSqlite/DBManager.java=UTF-8
+encoding//src/com/jxnu/cic/dbSqlite/DBSQLiteHelper.java=UTF-8
+encoding//src/com/jxnu/cic/dbSqlite/MementoProvider.java=UTF-8
+encoding//src/com/jxnu/cic/util/GsonUtils.java=UTF-8
+encoding//src/com/jxnu/cic/view/CircleImageView.java=UTF-8
+encoding//src/com/jxnu/cic/view/RefreshableView.java=UTF-8
+encoding/<project>=UTF-8
